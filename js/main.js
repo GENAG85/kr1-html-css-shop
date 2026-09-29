@@ -28,6 +28,7 @@ orderButtons.forEach((button) => {
 closeDialogButton.addEventListener('click', () => {
   orderDialog.close();
 });
+
 // Получаем форму заявки.
 const orderForm = document.getElementById('order-form');
 
@@ -71,4 +72,3 @@ orderForm.addEventListener('submit', (event) => {
   // Закрываем модальное окно.
   orderDialog.close();
 });
-
