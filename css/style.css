@@ -49,6 +49,9 @@ html {
 }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   margin: 0;
   font-family: Arial, sans-serif;
   line-height: 1.5;
@@ -58,6 +61,7 @@ body {
 
 main {
   padding: var(--space-xl) var(--space-lg);
+  flex: 1;
 }
 
 img {
